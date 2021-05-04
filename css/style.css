@@ -1,0 +1,109 @@
+:root {
+  --lightGray: #f1f1f1;
+  --darkColor: #000;
+  --darkOpacity: rgba(0, 0, 0, 0.699);
+  --maroonColor: #800000;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Arizonia", cursive;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+p {
+  letter-spacing: 2px;
+}
+
+button {
+  border: 2px solid var(--maroonColor);
+  transition: all 0.3s ease-in-out;
+}
+
+button a {
+  color: var(--maroonColor);
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: var(--maroonColor);
+  color: #fff;
+  border: 2px solid var(--lightGray);
+}
+button:hover a {
+  color: #fff;
+}
+
+.navbar {
+  background-color: var(--darkColor);
+}
+
+.navbar-brand {
+  font-family: "Arizonia", cursive;
+  letter-spacing: 5px;
+}
+
+.site-footer {
+  padding: 20px 0;
+}
+
+.jumbotron {
+  color: var(--darkColor);
+}
+
+.baseball-bg {
+  background-image: url(/img/baseball.png);
+  background-position: center;
+  background-size: cover;
+}
+
+/* Carousel */
+.carousel-size {
+  width: 100%;
+  height: 60vh;
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-size img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Sponsors */
+
+.sponsors h3 {
+  font-size: 3rem;
+}
+
+.circle {
+  width: 100%;
+  min-width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: url(/img/baseball.png);
+  background-position: center;
+  background-size: cover;
+}
+
+/* Footer */
+
+.rights {
+  background: #000;
+}

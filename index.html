@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <!-- Bootstrap Social -->
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" /> 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arizonia&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- Custome CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>MSYBaseball</title>
+</head>
+<body>
+    <!-- Navigation -->
+    
+    
+
+    <!-- Header -->
+    <div class="jumbotron jumbotron-fluid mb-0 text-white  d-flex flex-column pl-3 bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10">
+                    <h1>Mid-South Youth Baseball</h1>
+                    <p class="lead">FIND ALL YOU NEED TO HAVE THE BEST YOUTH BASEBALL<br /> EXPERIENCE IN THE GREATER MEMPHIS AREA!</p>
+                </div>
+                <div class="col d-flex align-items-center  justify-content-center baseball-bg">
+                    <div class="btn-group-vertical" role="group" aria-label="">
+                        <button class="btn-block"><a href="#" class="text-decoration-none p-3">Sign in</a></button>
+                        <button class="btn-block"><a href="#" class="text-decoration-none p-3">Sign up</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- End of header -->
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">MSYB</a>
+    
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-pressed="false"
+                autocomplete="off">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active mx-md-2">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <!-- <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link">Teams</a>
+                    </li>
+                    <li class="nav-item mx-md-2"><a href="#" class="nav-link">Events</a></li>
+                    <li class="nav-item mx-md-2"><a href="#" class="nav-link">Development</a></li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="teamsDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Teams
+                        </a>
+                        <div class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">7U</a>
+                            <a class="dropdown-item" href="#">8U</a>
+                            <a class="dropdown-item" href="#">9U</a>
+                            <a class="dropdown-item" href="#">10U</a>
+                            <a class="dropdown-item" href="#">11U</a>
+                            <a class="dropdown-item" href="#">12U</a>
+                            <a class="dropdown-item" href="#">13U</a>
+                            <a class="dropdown-item" href="#">14U</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="eventsDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Events
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Tryouts</a>
+                            <a class="dropdown-item" href="#">Tournaments</a>
+                            <a class="dropdown-item" href="#">Team Needs</a>
+                            <a class="dropdown-item" href="#">Fundraisers</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">F</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="developDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Development
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Lessons</a>
+                            <a class="dropdown-item" href="#">Conditioning</a>
+                            <a class="dropdown-item" href="#">Camps</a>
+                            <a class="dropdown-item" href="#">Clinics</a>
+                            <a class="dropdown-item" href="#">Facilities</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-md-2"><a href="#" class="nav-link">Contact Us</a></li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- End of Navigation -->
+
+    <!-- Intro Slider -->
+    
+    <div id="carouselExampleIndicators" class="carousel slide carousel-size" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/baseballpitcher.png" class="d-block" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/baseballfields.jpg" class="d-block" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/running.jpg" class="d-block" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- End of Intro Slider -->
+
+    <!-- Sponsors -->
+    <div class="sponsors">
+        <div class="container my-5 mx-auto">
+            <div class="row">
+                <div class="col">
+                    <h3 class="text-center mb-3">Our Sponsors</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="circle"></div>
+                    <h4 class="text-center">Sponsor 1</h4>
+                </div>
+                <div class="col">
+                    <div class="circle">
+                    
+                    </div>
+                    <h4 class="text-center">Sponsor 1</h4>
+                </div>
+                <div class="col">
+                    <div class="circle">
+                    
+                    </div>
+                    <h4 class="text-center">Sponsor 1</h4>
+                </div>
+                <div class="col">
+                    <div class="circle">
+                    
+                    </div>
+                    <h4 class="text-center">Sponsor 1</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Sponsors -->
+
+
+    <!-- Footer -->
+    <footer class="site-footer bg-dark text-white pb-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 text-center">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="#">Sites</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 text-center">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="#">Sites</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 text-center">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="#">Sites</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 text-center">
+                    <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i>
+                        1-206-555-1234</a><br />
+                    <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i class="fa fa-envelope-o"></i>
+                        campsites@nucamp.co</a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-3 rights py-2">
+            2021 all rights reserved | Powered by Carla Montano
+        </div>
+    </footer>
+
+    <!-- End of Footer -->
+
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Custon JS -->
+    <script src="js/app.js"></script>
+</body>
+</html>
