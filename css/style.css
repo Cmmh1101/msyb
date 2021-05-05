@@ -92,17 +92,22 @@ button:hover a {
   font-size: 3rem;
 }
 
-.circle {
-  width: 100%;
-  min-width: 150px;
+/* Sponsors 2 */
+.sponsor-area {
+  width: 150px;
   height: 150px;
-  border-radius: 50%;
-  background-image: url(/img/baseball.png);
-  background-position: center;
-  background-size: cover;
 }
 
+.sponsors img {
+  width: 100%;
+  max-width: 150px;
+  height: 100%;
+}
 /* Footer */
+
+.sponsor-area a:hover img {
+  transform: scale(1.1);
+}
 
 .rights {
   background: #000;
